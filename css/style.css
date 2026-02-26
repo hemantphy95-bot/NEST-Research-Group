@@ -121,3 +121,32 @@ text-align:center;
 padding:20px;
 margin-top:50px;
 }
+.hero-banner{
+height:100vh;
+background:linear-gradient(rgba(0,18,25,0.7), rgba(0,18,25,0.7)),
+url('../images/hero.jpg') center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.overlay{
+padding:20px;
+}
+
+.hero-title{
+font-size:5rem;
+letter-spacing:8px;
+color:#EE9B00;
+font-weight:700;
+}
+
+.hero-subtitle{
+font-size:1.2rem;
+margin-top:20px;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+}
