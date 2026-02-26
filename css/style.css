@@ -19,6 +19,32 @@ font-family:'Playfair Display', serif;
 max-width:1200px;
 margin:auto;
 padding:0 5%;
+} .research-block{
+display:flex;
+align-items:center;
+gap:50px;
+flex-wrap:wrap;
+}
+
+.research-block.reverse{
+flex-direction:row-reverse;
+}
+
+.research-image img{
+width:450px;
+max-width:100%;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.research-text{
+flex:1;
+min-width:280px;
+}
+
+.research-text h2{
+margin-bottom:15px;
+color:#001219;
 }
 
 header{
@@ -224,4 +250,5 @@ text-align:center;
 width:180px;
 }
 }
+
 
