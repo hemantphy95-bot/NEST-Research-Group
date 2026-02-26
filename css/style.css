@@ -250,5 +250,42 @@ text-align:center;
 width:180px;
 }
 }
+.pub-year h2{
+border-left:5px solid #EE9B00;
+padding-left:15px;
+margin-bottom:20px;
+color:#001219;
+}
+
+.pub-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+margin-bottom:20px;
+transition:0.3s;
+}
+
+.pub-card:hover{
+transform:translateY(-5px);
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.doi-link{
+display:inline-block;
+margin-top:10px;
+color:#EE9B00;
+font-weight:500;
+text-decoration:none;
+}
+
+.doi-link:hover{
+text-decoration:underline;
+}
+
+.corresponding{
+color:#001219;
+font-weight:600;
+}
 
 
