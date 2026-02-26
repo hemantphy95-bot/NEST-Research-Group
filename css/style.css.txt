@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:#F8F9FA;
+color:#001219;
+line-height:1.6;
+}
+
+header{
+background:#001219;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 5%;
+}
+
+.logo{
+color:#EE9B00;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#EE9B00;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,18,25,0.7), rgba(0,18,25,0.7)),
+url('../images/hea.jpg') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:0 20px;
+}
+
+.hero h2{
+font-size:3rem;
+color:#EE9B00;
+}
+
+.section{
+padding:100px 10%;
+margin-top:60px;
+}
+
+.alt-bg{
+background:#E9D8A6;
+}
+
+.team-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.research-block{
+display:flex;
+align-items:center;
+gap:40px;
+margin:60px 0;
+flex-wrap:wrap;
+}
+
+.research-block img{
+width:450px;
+max-width:100%;
+border-radius:10px;
+}
+
+.reverse{
+flex-direction:row-reverse;
+}
+
+footer{
+background:#001219;
+color:white;
+text-align:center;
+padding:20px;
+}

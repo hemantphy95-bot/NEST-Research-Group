@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facilities | NEST</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<div class="container nav-container">
+<h1 class="logo">NEST</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="section">
+<h2>Research Facilities</h2>
+<ul>
+<li>Transmission Electron Microscopy (TEM)</li>
+<li>Scanning Electron Microscopy (SEM)</li>
+<li>X-Ray Diffraction (XRD)</li>
+<li>Electrochemical Workstations</li>
+<li>Ion Beam Irradiation Facility</li>
+<li>UV-Vis Spectroscopy</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 NEST Research Group</p>
+</footer>
+
+</body>
+</html>

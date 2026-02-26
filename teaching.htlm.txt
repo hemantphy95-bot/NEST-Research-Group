@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching | NEST</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<div class="container nav-container">
+<h1 class="logo">NEST</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="facilities.html">Facilities</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="section">
+<h2>Courses Taught</h2>
+<ul>
+<li>Electricity & Magnetism – B.Sc.</li>
+<li>Classical Electrodynamics – M.Sc.</li>
+<li>Digital Electronics – B.Sc.</li>
+<li>Laser Applications – M.Tech</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 NEST Research Group</p>
+</footer>
+
+</body>
+</html>

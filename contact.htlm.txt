@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | NEST</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<div class="container nav-container">
+<h1 class="logo">NEST</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="facilities.html">Facilities</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="news.html">News</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="section">
+<h2>Contact Us</h2>
+<p><strong>Dr. Hemant Jatav</strong></p>
+<p>Assistant Professor, School of Physics</p>
+<p>DAVV, Indore, India</p>
+<p>Email: your-email@university.edu</p>
+</section>
+
+<footer>
+<p>© 2026 NEST Research Group</p>
+</footer>
+
+</body>
+</html>
