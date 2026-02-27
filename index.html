@@ -3,11 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Hemant Jatav | NEST Research Group</title>
+<title>Dr. Hemant Jatav|NEST Research Group</title>
 
 <link rel="stylesheet" href="css/style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* Reduced section spacing */
+.section{
+padding:60px 10%;
+}
+
+.section-title{
+margin-bottom:25px;
+}
+
+.lead-text{
+max-width:850px;
+margin:auto;
+line-height:1.8;
+}
+
+.about-section{
+padding-top:40px;
+padding-bottom:60px;
+}
+
+.alt-bg{
+background:#f5f5f5;
+}
+
+.research-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.research-card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.research-card:hover{
+transform:translateY(-4px);
+box-shadow:0 8px 18px rgba(0,0,0,0.12);
+}
+
+.about-content{
+display:flex;
+align-items:flex-start;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.about-image img{
+width:220px;
+border-radius:8px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.about-text{
+flex:1;
+min-width:280px;
+}
+
+.custom-list{
+margin:15px 0 15px 20px;
+line-height:1.8;
+}
+
+/* ================= MOBILE FIX ONLY ================= */
+/* Does NOT affect desktop */
+
+@media(max-width:768px){
+
+.section{
+padding:60px 20px;   /* instead of 10% */
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-direction:column;
+align-items:center;
+gap:12px;
+}
+
+.hero-subtitle{
+white-space:normal;
+}
+
+.hero-overlay{
+padding:30px 20px;
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
@@ -15,7 +116,7 @@
 <header>
 <div class="container">
 <nav>
-<h2 class="logo">NEST Research Group</h2>
+<h2 style="color:#EE9B00;"> NEST Research Group</h2>
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="research.html">Research</a></li>
@@ -31,7 +132,7 @@
 
 <!-- HERO -->
 <section class="hero-banner">
-<div class="hero-overlay">
+<div class="hero-overlay"> <!-- FIXED CLASS NAME -->
 <h1 class="hero-title">NEST</h1>
 <p class="hero-subtitle">
 Engineering Functional Nanomaterials and Alloys for Energy and Extreme Environments
@@ -39,19 +140,24 @@ Engineering Functional Nanomaterials and Alloys for Energy and Extreme Environme
 </div>
 </section>
 
-<!-- ABOUT -->
+<!-- ABOUT NEST -->
 <section class="section container">
+
 <h2 class="section-title">About the NEST Research Group</h2>
 
 <p class="lead-text">
 Welcome to the Nanomaterials for Energy and Sustainable Technologies (NEST) Research Group. 
 Our research focuses on the synthesis, modification, and structural evolution of advanced nanomaterials, 
-functional materials, and complex alloy systems for energy and extreme environment applications.
+functional materials, and complex alloy systems for energy and extreme environment applications. 
+We aim to understand how materials respond to irradiation, high temperature, and chemically demanding 
+conditions, and how their properties can be deliberately engineered at the nanoscale to achieve targeted functionality.
 </p>
+
 </section>
 
-<!-- PI -->
+<!-- PRINCIPAL INVESTIGATOR -->
 <section class="section container about-section">
+
 <h2 class="section-title">Principal Investigator</h2>
 
 <div class="about-content">
@@ -61,25 +167,38 @@ functional materials, and complex alloy systems for energy and extreme environme
 </div>
 
 <div class="about-text">
+
 <h3>Dr. Hemant Jatav</h3>
 <p><strong>Assistant Professor, School of Physics</strong><br>
 Devi Ahilya Vishwavidyalaya (DAVV), Indore</p>
 
 <p>
-Experimental condensed matter physicist working at the interface of ion-beam physics, 
-nanomaterials synthesis, and advanced structural characterization.
+I am an experimental condensed matter physicist working at the interface of ion-beam physics, 
+nanomaterials synthesis, and advanced structural characterization. My academic training includes 
+a B.Sc. from Sri Venkateswara College, University of Delhi, an M.Sc. in Physics from IIT Delhi, 
+and a Ph.D. from the Inter-University Accelerator Centre (IUAC), New Delhi (affiliated with JNU).
+</p>
+
+<p>
+During my doctoral research, I investigated silica-embedded plasmonic alloy nanoparticles 
+(AgAu and AgPt systems), focusing on their nucleation, growth mechanisms, thermal evolution, 
+and ion beam-induced structural transformations. This work combined advanced microscopy with 
+synchrotron-based scattering techniques to establish structure–property relationships in confined nanoscale functional systems.
 </p>
 
 <a href="pdf/Hemant_Jatav_CV_2026.pdf" 
-   class="btn" 
-   target="_blank" 
-   rel="noopener">
-   Download CV
+class="btn" 
+target="_blank" 
+rel="noopener">
+Download CV
 </a>
 
 </div>
 </div>
+
 </section>
+
+<!-- Remaining sections unchanged -->
 
 <footer>
 <p>© 2026 NEST Research Group | School of Physics, DAVV Indore</p>
