@@ -425,4 +425,21 @@ letter-spacing:5px;
 font-size:1rem;
 }
 
+} .btn{
+display:inline-block;
+background:#EE9B00;
+color:#001219;
+padding:12px 24px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+letter-spacing:0.5px;
+transition:all 0.3s ease;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
