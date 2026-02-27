@@ -128,10 +128,14 @@ height:100%;
 background:rgba(0,18,25,0.85);
 }
 
-.hero-overlay{
+ .hero-overlay{
 position:relative;
 z-index:2;
 text-align:center;
+padding:40px 60px;
+background:rgba(0, 18, 25, 0.75);
+backdrop-filter:blur(4px);
+border-radius:12px;
 }
 
 /* Sharper NEST title */
@@ -439,3 +443,4 @@ font-size:1rem;
 }
 
 }
+
