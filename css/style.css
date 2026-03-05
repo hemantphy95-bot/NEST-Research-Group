@@ -7,6 +7,17 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 }
+.hero{
+position:relative;
+height:65vh;
+min-height:420px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#020617;
+}
+
 
 /* ADDED: prevent horizontal scroll on mobile */
 html,body{
@@ -521,5 +532,6 @@ pointer-events;
     font-size: 1.3rem;
     opacity: 0.8;
 }
+
 
 
